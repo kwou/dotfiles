@@ -1,0 +1,25 @@
+[user]
+	email = <email>
+	name = <username>
+[color]
+    ui = true
+    status = auto
+    interactive = auto
+    pager = true
+    diff = auto
+    branch = auto
+
+[alias]
+    ap = apply
+    ac = apply --check
+    lg = log 
+    b = branch
+    co = checkout
+    cm = commit
+    ca = commit -a
+    st = status
+    rb = rebase
+    ri = rebase --interactive
+    rc = rebase --continue
+[core]
+	autocrlf = false
